@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 48px;
+  }
+  
+  header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Estilos de sección */
+  section {
+    padding: 50px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de contacto */
+  #contact {
+    background-color: #f2f2f2;
+  }
+  
+  #contact ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  #contact li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #contact li:last-child {
+    margin-right: 0;
+  }
+  
+  #contact a {
+    color: #333;
+  }
+  
+  /* Estilos de medios */
+  @media (max-width: 768px) {
+    header {
+      padding: 20px;
+    }
+  
+    header h1 {
+      font-size: 36px;
+    }
+  
+    header h2 {
+      font-size: 18px;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  
+    section h2 {
+      font-size: 24px;
+    }
+  
+    section li {
+      font-size: 14px;
+    }
+  
+    #contact {
+      padding: 20px;
+    }
+  
+    #contact li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
